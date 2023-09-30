@@ -1,5 +1,4 @@
 import { Request, Response, Router } from "express";
-import { UserDB } from "../database/UserDB";
 import { UserBusiness } from "../business/UserBusiness";
 
 export class UserController {
